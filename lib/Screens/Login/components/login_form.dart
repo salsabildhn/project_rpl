@@ -20,7 +20,7 @@ class LoginForm extends StatelessWidget {
             cursorColor: kPrimaryColor,
             onSaved: (email) {},
             decoration: InputDecoration(
-              hintText: "Email kamu",
+              hintText: "Email",
               prefixIcon: Padding(
                 padding: const EdgeInsets.all(defaultPadding),
                 child: Icon(Icons.person),

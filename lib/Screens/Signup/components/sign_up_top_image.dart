@@ -13,20 +13,11 @@ class SignUpScreenTopImage extends StatelessWidget {
     return Column(
       children: [
         Text(
-          "Sign Up".toUpperCase(),
-          style: TextStyle(fontWeight: FontWeight.bold),
+          "Lengkapi Profilmu",
+          style: TextStyle(
+              fontWeight: FontWeight.bold, fontSize: 25, color: kPrimaryColor),
         ),
         SizedBox(height: defaultPadding),
-        Row(
-          children: [
-            const Spacer(),
-            Expanded(
-              flex: 8,
-              child: SvgPicture.asset("assets/icons/signup.svg"),
-            ),
-            const Spacer(),
-          ],
-        ),
         SizedBox(height: defaultPadding),
       ],
     );

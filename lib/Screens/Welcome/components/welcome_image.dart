@@ -18,18 +18,6 @@ class WelcomeImage extends StatelessWidget {
           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 55),
         ),
         SizedBox(height: defaultPadding * 2),
-        //Row(
-        //  children: [
-        //    Spacer(),
-        //    Expanded(
-        //      flex: 8,
-        //      child: SvgPicture.asset(
-        //        "assets/icons/chat.svg",
-        //      ),
-        //    ),
-        //    Spacer(),
-        //  ],
-        //),
         SizedBox(height: defaultPadding * 2),
       ],
     );

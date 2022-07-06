@@ -26,7 +26,7 @@ class LoginAndSignupBtn extends StatelessWidget {
               );
             },
             child: Text(
-              "Klik ini".toUpperCase(),
+              "Klik di sini".toUpperCase(),
             ),
           ),
         ),
